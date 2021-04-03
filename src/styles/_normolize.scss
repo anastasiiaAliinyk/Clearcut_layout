@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+body {
+  box-sizing: border-box;
+  border-top: 5px solid #a7c353;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
