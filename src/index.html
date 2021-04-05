@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clearcut</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
     <div class="container">
+      <div class="container__top-line"></div>
       <header class="header">
         <div class="header__logo">
           <a href="#home">
@@ -107,7 +109,7 @@
 
         <div class="content">
           <div class="content__about about">
-            <h3 class="about__title">
+            <h3 class="title">
               A Little About Us
             </h3>
             <img
@@ -122,77 +124,259 @@
               <p>
                 Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
               </p>
+              <a href="#" class="link">
+                Read More About Us »
+              </a>
             </div>
           </div>
 
           <div class="content__services services">
-            <h3 class="services__title">
+            <h3 class="title">
               Some of Our Services
             </h3>
             <div class="services__service service">
-              <img src="./images/service.jpeg" alt="First service">
-              <h4 class="service__title">
-                Service Title
-              </h4>
-              <p>
-                Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
-              </p>
+              <img
+                src="./images/service.jpeg"
+                alt="First service"
+                class="service__image"
+              >
+              <div>
+                <h4 class="service__title">
+                  Service Title
+                </h4>
+                <p class="service__text">
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
+                </p>
+              </div>
             </div>
             <div class="services__service service">
-              <img src="./images/service.jpeg" alt="Second service">
-              <h4 class="service__title">
-                Service Title
-              </h4>
-              <p>
-                Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
-              </p>
+              <img
+                src="./images/service.jpeg"
+                alt="Second service"
+                class="service__image"
+              >
+              <div>
+                <h4 class="service__title">
+                  Service Title
+                </h4>
+                <p class="service__text">
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
+                </p>
+              </div>
             </div>
             <div class="services__service service">
-              <img src="./images/service.jpeg" alt="Third service">
-              <h4 class="service__title">
-                Service Title
-              </h4>
-              <p>
-                Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
-              </p>
+              <img
+                src="./images/service.jpeg"
+                alt="Third service"
+                class="service__image"
+              >
+              <div>
+                <h4 class="service__title">
+                  Service Title
+                </h4>
+                <p class="service__text">
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
+                </p>
+              </div>
             </div>
             <div class="services__service service">
-              <img src="./images/service.jpeg" alt="Fourth service">
-              <h4 class="service__title">
-                Service Title
-              </h4>
-              <p>
-                Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
-              </p>
+              <img
+                src="./images/service.jpeg"
+                alt="Fourth service"
+                class="service__image"
+              >
+              <div>
+                <h4 class="service__title">
+                  Service Title
+                </h4>
+                <p class="service__text">
+                  Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.
+                </p>
+              </div>
             </div>
+            <a href="#" class="link">
+              View All Of Our Serv »
+            </a>
           </div>
 
           <div class="content__reviews reviews">
-            <h3 class="reviews__title">
+            <h3 class="title">
               What Our Clients Say
             </h3>
-            <div class="reviews__review review">
-              <h4 class="review__title">
-                Tommy Tanker - CEO
-              </h4>
+            <div class="review">
+              <div class="heading">
+                <img
+                  src="./images/composite.png"
+                  alt="composite"
+                  class="heading__image"
+                >
+                <h4 class="heading__title">
+                  Tommy Tanker - CEO
+                </h4>
+              </div>
               <p>
                 Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.
               </p>
+              <a href="#" class="link">
+                View This Project »
+              </a>
             </div>
-            <div class="reviews__review review">
-              <h4 class="review__title">
-                Tommy Tanker - CEO
-              </h4>
+            <div class="review">
+              <div class="heading">
+                <img
+                  src="./images/composite.png"
+                  alt="composite"
+                  class="heading__image"
+                >
+                <h4 class="heading__title">
+                  Tommy Tanker - CEO
+                </h4>
+              </div>
               <p>
                 Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.
               </p>
+              <a href="#" class="link">
+                View This Project »
+              </a>
             </div>
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer-details">
+            <h5 class="footer-title">
+              Company Details
+            </h5>
+            <div>
+              <p>Company Name</p>
+              <p>Street Name & Number</p>
+              <p>Town</p>
+              <p>Postcode/Zip</p>
+            </div>
+            <div>
+              <p>
+                <a href="tel:+xxxxx xxxxxxxxxx">
+                  Tel: xxxxx xxxxxxxxxx
+                </a>
+              </p>
+              <p>Fax: xxxxx xxxxxxxxxx</p>
+              <p>
+                <a href="mailto:contact@mydomain.com" class="footer-link">
+                  Email: contact@mydomain.com
+                </a>
+              </p>
+            </div>
+            <div>
+              <p>
+                Office Hours<br>
+                Monday - Friday: 08:00 - 17:30<br>
+                Saturday: 08:00 - 13:00<br>
+              </p>
+            </div>
+          </div>
+          <div class="footer-media">
+            <h5 class="footer-title">
+              Stay Social
+            </h5>
+            <div class="footer-media__item">
+              <a href="#">
+                <span class="bi bi-linkedin"></span>
+              </a>
+              <a href="#" class="footer-link">
+                Get linked up in LinkedIn
+              </a>
+            </div>
+            <div class="footer-media__item">
+              <a href="#">
+                <span class="bi bi-twitter"></span>
+              </a>
+              <a href="#" class="footer-link">
+                Keep up with our Tweets
+              </a>
+            </div>
+            <div class="footer-media__item">
+              <a href="#">
+                <span class="bi bi-camera"></span>
+              </a>
+              <a href="#" class="footer-link">
+                Photos on Pinterest
+              </a>
+            </div>
+            <div class="footer-media__item">
+              <a href="#">
+                <span class="bi bi-rss"></span>
+              </a>
+              <a href="#" class="footer-link">
+                RSS Feed
+              </a>
+            </div>
+          </div>
+          <div class="footer-blogs">
+            <h5 class="footer-title">
+              From The Blog
+            </h5>
+            <div class="footer-blogs__blog blog">
+              <h6 class="blog__title">
+                Blog Post Title
+              </h6>
+              <p>
+                Posted by Admin on 00.00.0000
+              </p>
+              <p>
+                Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.
+              </p>
+              <a href="#" class="link">Read More »</a>
+            </div>
+            <div class="footer-blogs__blog blog">
+              <h6 class="blog__title">
+                Blog Post Title
+              </h6>
+              <p>
+                Posted by Admin on 00.00.0000
+              </p>
+              <p>
+                Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.
+              </p>
+              <a href="#" class="link">Read More »</a>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h5 class="footer-title">
+              Contact Us
+            </h5>
+            <form action="" class="footer-contact__form form">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="form__input input"
+              >
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="form__input input"
+              >
+              <textarea
+                placeholder="Message"
+                class="form__input input input--textarea"
+                name="message">
+              </textarea>
+              <button class="form__button">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>
+            Copyright © 2013 Domain Name - All Rights Reserved
+          </p>
+          <p>
+            Template by OS Templates
+          </p>
+        </div>
+      </footer>
     </div>
-
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,23 @@
+.service {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 64px;
+    height: 64px;
+    margin-right: 18px;
+
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__title {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #878787;
+  }
+
+  &__text {
+    line-height: 18px;
+  }
+}

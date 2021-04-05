@@ -1,0 +1,17 @@
+@import "./carousel.scss";
+@import "./content.scss";
+@import "./about.scss";
+@import "./services.scss";
+
+.main {
+  &__title {
+    margin: 40px auto;
+    max-width: 710px;
+
+    color: $c-gray;
+    line-height: 30px;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+  }
+}

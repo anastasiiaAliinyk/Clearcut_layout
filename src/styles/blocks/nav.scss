@@ -1,0 +1,26 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding: 53px 20px 33px;
+    color: #979797;
+    text-transform: uppercase;
+
+    &:hover:not(.nav__item--active) {
+      background-color: rgba(174, 248, 77, 0.2);
+    }
+
+    &--active {
+      color: $c-white;
+      background-color: $c-green;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+}

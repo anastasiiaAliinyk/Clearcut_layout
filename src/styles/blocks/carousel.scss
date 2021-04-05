@@ -1,0 +1,50 @@
+.carousel-control-next-icon {
+  height: 55px;
+  width: 55px;
+  background-image: url("/images/right-arrow.png");
+}
+
+.carousel-control-prev-icon {
+  height: 55px;
+  width: 55px;
+  background-image: url("/images/left-arrow.png");
+}
+
+.carousel {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e2e2e2;
+
+  &__image {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.carousel-caption {
+  right: 62px;
+  left: auto;
+  bottom: 23px;
+  width: 350px;
+  padding: 0;
+
+  text-align: start;
+}
+
+.carousel__title {
+  margin-bottom: 10px;
+  padding: 11px 23px 7px;
+
+  font-size: 22px;
+  text-transform: capitalize;
+  background-color: $c-green;
+}
+
+.carousel__text {
+  background-color: $c-white;
+  padding: 14px 3px 9px 13px;
+  font-size: 13px;
+  line-height: 15px;
+  color: $c-light-gray;
+}
