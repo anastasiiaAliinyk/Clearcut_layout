@@ -1,15 +1,3 @@
-.carousel-control-next-icon {
-  height: 55px;
-  width: 55px;
-  background-image: url("/images/right-arrow.png");
-}
-
-.carousel-control-prev-icon {
-  height: 55px;
-  width: 55px;
-  background-image: url("/images/left-arrow.png");
-}
-
 .carousel {
   padding-bottom: 40px;
   border-bottom: 1px solid #e2e2e2;
@@ -20,6 +8,25 @@
     object-fit: cover;
     object-position: center;
   }
+}
+
+.carousel-control-next-icon {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 50px;
+  background-image: url("/images/right-arrow.png");
+}
+
+.carousel-control-prev-icon {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 50px;
+  background-image: url("/images/left-arrow.png");
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 6%;
 }
 
 .carousel-caption {
@@ -47,4 +54,57 @@
   font-size: 13px;
   line-height: 15px;
   color: $c-light-gray;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel {
+    &__image {
+      height: 250px;
+    }
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 35px;
+    width: 35px;
+   }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 8%;
+  }
+
+  .carousel-caption {
+    width: 250px;
+  }
+
+  .carousel__title {
+    padding: 8px 3px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: none;
+  }
+
+  &__carousel__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .carousel {
+    &__image {
+      height: 150px;
+    }
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 25px;
+    width: 25px;
+   }
+
+  .carousel-caption,
+  .carousel__title {
+    display: none;
+  }
 }

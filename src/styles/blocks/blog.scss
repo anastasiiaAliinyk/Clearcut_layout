@@ -1,0 +1,16 @@
+.blog {
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  &:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}

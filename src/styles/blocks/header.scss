@@ -5,4 +5,18 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid $c-green;
+
+  &__menu-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    min-height: 90px;
+
+    &__menu-icon {
+      display: block;
+    }
+  }
 }

@@ -1,0 +1,11 @@
+.link {
+  float: right;
+  margin-top: 12px;
+
+  color: $c-green;
+  text-transform: capitalize;
+
+  &:hover {
+    color: rgb(52, 87, 6);
+  }
+}

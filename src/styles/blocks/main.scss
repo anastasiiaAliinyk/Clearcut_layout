@@ -2,6 +2,7 @@
 @import "./content.scss";
 @import "./about.scss";
 @import "./services.scss";
+@import "./reviews.scss";
 
 .main {
   &__title {
@@ -13,5 +14,21 @@
     font-size: 22px;
     font-style: italic;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main {
+    &__title {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main {
+    &__title {
+      font-size: 14px;
+    }
   }
 }

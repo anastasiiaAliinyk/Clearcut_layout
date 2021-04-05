@@ -1,0 +1,33 @@
+@import "./input.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    margin-bottom: 10px;
+  }
+
+  &__input,
+  &__button {
+    padding: 11px;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+  &__button {
+    width: 80px;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $c-dark-gray;
+    background-color: $c-green;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(178, 241, 107);
+    }
+  }
+}

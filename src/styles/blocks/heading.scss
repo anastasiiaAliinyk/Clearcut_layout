@@ -1,0 +1,9 @@
+.heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+
+  &__title {
+    margin-left: 10px;
+  }
+}

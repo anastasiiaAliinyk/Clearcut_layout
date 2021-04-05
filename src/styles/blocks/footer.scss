@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 40px;
+  margin: 0 -15px;
+  font-size: 12px;
+  color: $c-light-gray;
+  background-color: $c-dark-gray;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid $c-light-gray;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__copyright {
+      display: block;
+      text-align: center;
+      line-height: 18px;
+    }
+  }
+}

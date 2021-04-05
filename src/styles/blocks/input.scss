@@ -1,0 +1,15 @@
+.input {
+  width: 225px;
+  font-size: 13px;
+  color: #989898;
+  border: none;
+  background-color: #383838;
+
+  &::placeholder {
+    color: #989898;
+  }
+
+  &--textarea {
+    height: 110px;
+  }
+}
