@@ -18,11 +18,4 @@
 @import "./blocks/footer-title.scss";
 @import "./blocks/footer-link.scss";
 @import "./blocks/form.scss";
-
-
-
-.footer-media {
-  &__item {
-    margin-bottom: 22px;
-  }
-}
+@import "./blocks/footer-media.scss";

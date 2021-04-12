@@ -1,0 +1,9 @@
+@import "./icon.scss";
+
+.footer-media {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+}
